@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif; /* フォントファミリーの指定 */
+    margin: 0; /* ページの外側の余白を0に設定 */
+    padding: 0; /* ページの内側の余白を0に設定 */
+    background-color: #f2f2f2; /* 背景色の指定 */
+}
+
+/* コンテナのスタイル */
+.container {
+    max-width: 600px; /* コンテナの最大幅を指定 */
+    margin: 20px auto; /* コンテナを水平中央に配置し、上下の余白を20pxに設定 */
+    padding: 20px; /* コンテナの内側の余白を指定 */
+    background-color: #fff; /* コンテナの背景色を指定 */
+    border-radius: 5px; /* コンテナの角を丸くする */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* コンテナに影を付ける */
+}
+
+/* 見出しのスタイル */
+h1 {
+    text-align: center; /* 見出しを中央に配置 */
+    color: #333;
+    margin-top: 0; /* 見出しの文字色を指定 */
+}
+
+/* 順序付きリストのスタイル */
+ol {
+    list-style-type: none; /* リストのマーカーを無しにする */
+    padding: 0; /* リストの内側の余白を0に設定 */
+}
+
+/* リストアイテムのスタイル */
+li {
+    padding: 10px 0; /* リストアイテムの上下の余白を指定 */
+    border-bottom: 1px solid #ccc; /* リストアイテムの下に1pxの境界線を引く */
+}
+
+/* ランクのスタイル */
+.rank {
+    color: #ff6600;
+}
+
+.rank, .description {
+    font-weight: bold; /* テキストの太字を指定 */
+    font-size: 1.2em;
+}
+
+.description {
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.top-item .rank, .top-item .item-name, .top-item .description {
+    font-weight: bold;
+    font-size: 1.2em;
+
+}
