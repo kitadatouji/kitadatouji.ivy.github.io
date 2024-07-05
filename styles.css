@@ -1,57 +1,107 @@
 body {
-    font-family: Arial, sans-serif; /* フォントファミリーの指定 */
-    margin: 0; /* ページの外側の余白を0に設定 */
-    padding: 0; /* ページの内側の余白を0に設定 */
-    background-color: #f2f2f2; /* 背景色の指定 */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("img/2bb9ae97f61df31a3ab12de965cf5771.jpg");
+    background-size: 700px 600px;
+    background-position: center;  
 }
+   
 
-/* コンテナのスタイル */
+
 .container {
-    max-width: 600px; /* コンテナの最大幅を指定 */
-    margin: 20px auto; /* コンテナを水平中央に配置し、上下の余白を20pxに設定 */
-    padding: 20px; /* コンテナの内側の余白を指定 */
-    background-color: #fff; /* コンテナの背景色を指定 */
-    border-radius: 5px; /* コンテナの角を丸くする */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* コンテナに影を付ける */
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* 見出しのスタイル */
 h1 {
-    text-align: center; /* 見出しを中央に配置 */
-    color: #333;
-    margin-top: 0; /* 見出しの文字色を指定 */
+    text-align: center;
+    color: yellow;
+    margin-top: 0;
+    background-color: red;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 60%;
+    height: 50px;
+    margin: 20px auto;
+    
 }
 
-/* 順序付きリストのスタイル */
 ol {
-    list-style-type: none; /* リストのマーカーを無しにする */
-    padding: 0; /* リストの内側の余白を0に設定 */
+    list-style-type: none;
+    padding: 0;
 }
 
-/* リストアイテムのスタイル */
 li {
-    padding: 10px 0; /* リストアイテムの上下の余白を指定 */
-    border-bottom: 1px solid #ccc; /* リストアイテムの下に1pxの境界線を引く */
+    padding: 10px 0;
+    border-bottom: 1px solid #ff0000;
 }
 
-/* ランクのスタイル */
-.rank {
-    color: #ff6600;
-}
 
-.rank, .description {
-    font-weight: bold; /* テキストの太字を指定 */
+
+.item-name, .description {
+    font-weight: bold;
     font-size: 1.2em;
 }
 
 .description {
-    margin-left: 20px;
+    margin-left: 10px;
     font-size: 14px;
-    font-weight: bold;
-    font-size: 1.1em;
+    
 }
-.top-item .rank, .top-item .item-name, .top-item .description {
-    font-weight: bold;
-    font-size: 1.2em;
 
+.container img {
+    display: block;
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.top-item img {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+
+}
+
+
+
+
+a {
+    font-weight: bold;
+}
+
+.speech-bubble {
+    position: relative;
+    width: 480px; 
+    height: 300px; 
+    
+    padding: 10px;
+    margin: 20px auto; 
+    text-align: center;
+    left: -150px;
+}
+
+.speech-bubble img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+
+.speech-bubble .caption {
+    position: absolute;
+    top: 30%;
+    bottom: 10px;
+    left: 40px;
+    right: 0;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
 }
