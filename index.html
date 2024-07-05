@@ -4,47 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>マクドナルド 人気ランキング</title>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f2f2f2;
-    }
-
-    .container {
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .content {
-        max-width: 600px;
-        padding: 20px;
-        background-color: #fff;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    h1 {
-        text-align: center;
-        color: #333;
-        margin-bottom: 20px;
-    }
-    ol {
-        list-style-type: none;
-        padding: 0;
-    }
-    li {
-        padding: 10px 0;
-        border-bottom: 1px solid #ccc;
-    }
-    .rank {
-        font-weight: bold;
-        color: #ff6600;
-    }
-</style>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -52,66 +12,90 @@
     <h1>マクドナルド 人気ランキング</h1>
     <ol>
         <li class="top-item">
-            <span class="rank">【10位】</span> <span class="item-name"> ビッグマック</span>
+            <span class="rank">【10位】</span> <span class="item-name"> スパチキ</span>
             <div class="description">
-                ビッグマックは、世界中で有名なマクドナルドの代表的なメニューです。2枚のビーフパティに特製のソース、レタス、チーズ、ピクルス、玉ねぎが挟まれています。
+                スパチキは、クリスピーなフライドチキンの中に、ピリッとしたスパイスが効いたソースが絡んでいます。バンズはふわふわで、チキンとの相性が良く、食べ応えもあります。
             </div>
+            <img src="img/download.jpg" width="480" height="300" alt="スパチキの画像">
         </li>
         <li class="top-item">
-            <span class="rank">【9位】</span> <span class="item-name">チーズバーガー</span>
+            <span class="rank">【9位】</span> <span class="item-name">チキンフィレオ</span>
             <div class="description">
-                チーズバーガーは、シンプルながら根強い人気を誇るマクドナルドの定番商品です。ビーフパティ、チーズ、ピクルス、玉ねぎ、マスタード、ケチャップが挟まれています。
+                チキンフィレオのパティは、ジューシーで柔らかく、しっかりとした味が特徴です。外側はサクサクとした衣で揚げられており、食感が良く、食べ応えもあります。チキン自体が脂っこくなく、さっぱりとした仕上がりなので、ヘルシー志向の方にもおすすめです。
             </div>
+            <img src="img/1080-Chicken-Filet-O.png" width="480" height="300" alt="チキンフィレオの画像">
         </li>
         <li class="top-item">
-            <span class="rank">【8位】</span> <span class="item-name">マックフライポテト</span>
+            <span class="rank">【8位】</span> <span class="item-name">エグチ</span>
             <div class="description">
-                マックフライポテトは、サクサクの食感とほんのり塩味が特徴です。揚げたてのポテトは、多くの人々に愛されています。
+                マクドナルドのエグチ
+                は、ビーフパティに目玉焼きとチーズが乗ったハンバーガーです。目玉焼きのふんわりとした食感と、チーズのコクが絶妙にマッチし、満足感のある味わいです。マヨネーズベースのソースと野菜がバランスよくアクセントを加えています。朝食や軽食として人気があり、特にチーズと目玉焼きが好きな方におすすめのメニューです。
             </div>
+            <img src="img/7070-Egg-Cheese-Burger.png" width="480" height="300" alt="エグチの画像">
         </li>
         <li class="top-item">
-            <span class="rank">【7位】</span> <span class="item-name">チキンナゲット</span>
-            <div class="description">
-                チキンナゲットは、ジューシーな鶏肉がフライドされています。子供から大人まで幅広い年齢層に人気があります。
+            <span class="rank">【7位】</span> <span class="item-name">サムライマック 炙り醬油風ベーコントマト肉厚ビーフ</span>
+            <div claclass="rank">
+                サムライマック 炙り醬油風ベーコントマト肉厚ビーフは、肉厚なビーフパティに炙り醬油風ソースがかかり、トマトとベーコンがトッピングされたハンバーガーです。炙り醬油風ソースが特徴的で、しっかりとした肉の旨味とソースの風味が楽しめます。トマトとベーコンがアクセントとなり、食べ応えのある満足感のある一品です。
             </div>
+            <img src="img/20240327_171310_p_o_35704519.webp" width="480" height="300" alt="サムライマック 炙り醬油風ベーコントマト肉厚ビーフの画像">
         </li>
         <li class="top-item">
-            <span class="rank">【6位】</span> <span class="item-name">マックチキン</span>
+            <span class="rank">【6位】</span> <span class="item-name">フィレオフィッシュ</span>
             <div class="description">
-                マックチキンは、ジューシーなチキンパティが特徴です。サクサクの衣とともに、一口食べればその美味しさにハマることでしょう。
+                フィレオフィッシュは、柔らかくジューシーな魚フィレがサクサクのバンズで包まれています。タルタルソースとレタスが絶妙なバランスで、さっぱりとした味わいを楽しめます。軽くてヘルシーな選択肢であり、魚料理を求める時にぴったりです。
             </div>
+            <img src="img/images.jpg" width="480" height="300" alt="フィレオフィッシュの画像">
         </li>
         <li class="top-item">
-            <span class="rank">【5位】</span> <span class="item-name">フィレオフィッシュ</span>
+            <span class="rank">【5位】</span> <span class="item-name">えびフィレオ</span>
             <div class="description">
-                フィレオフィッシュは、鮮やかな白身魚フィレを使用したサンドイッチです。お魚好きにはたまらない一品です。
+                サクサクの衣に包まれたプリプリのえびフィレが特徴です。タルタルソースとレタスが加わり、爽やかで海鮮感溢れる味わいを楽しめます。軽食や海鮮好きにおすすめのメニューです。
             </div>
+            <img src="img/1090-Shrimp-Filet-O.png" width="480" height="300" alt="えびフィレオの画像">
         </li>
         <li class="top-item">
-            <span class="rank">【4位】</span> <span class="item-name">クォーターパウンダー</span>
+            <span class="rank">【4位】</span> <span class="item-name">てりやきマックバーガー</span>
             <div class="description">
-                クォーターパウンダーは、ジューシーなビーフパティを贅沢に使ったハンバーガーです。ビーフ好きにはたまりません。
+                てりやきマックバーガーは、ジューシーなビーフパティに特製のてりやきソースが絡み、レタスとマヨネーズが加わったハンバーガーです。てりやきソースは甘みと辛みのバランスが良く、食べやすく満足感のある味わいです。
             </div>
+            <img src="img/1070-Teriyaki-McBurger.png" width="480" height="300" alt="てりやきマックバーガーの画像">
         </li>
         <li class="top-item">
-            <span class="rank">【3位】</span> <span class="item-name">ハッシュブラウン</span>
+            <span class="rank">【3位】</span> <span class="item-name">ダブルチーズバーガー</span>
             <div class="description">
-                ハッシュブラウンは、じゃがいもをすりおろし、形を整えて焼き上げたポテト料理です。朝食にピッタリの一品です。
+                ダブルチーズバーガーは、2枚のビーフパティと2枚のチーズが挟まれたハンバーガーです。肉のジューシーさとチーズのコクが満足感を高め、シンプルで食べやすい味わいです。
             </div>
+            <img src="img/1360-Double-Cheese-Burger.png" width="480" height="300" alt="ダブルチーズバーガーの画像">
         </li>
+        【2位】</span> <span class="item-name">サムライマック 炙り醬油風ダブル肉厚ビーフ</span>
+            <div class="description">
+                炙り醬油風ダブル肉厚ビーフは、ダブルの肉厚ビーフパティに炙り醬油風ソースが絡み、濃厚な肉の旨味と炙り醬油風ソースのコクが特徴で、食べ応え抜群の一品です。
+            </div>
+            <img src="img/2021040109044360650e1bc79b5_1.jpg" width="480" height="300" alt="サムライマック 炙り醬油風ダブル肉厚ビーフの画像">
+            
+        </li>
+        <div class="speech-bubble">
+        <img src="img/bd015446e200a9bc5c8e4797c88ce7ee.jpg" width="480" hright="300" alt="ふきだしの画像">
+        <div class="caption">第1位は！</div>
+        </div>
+        <img src="img/DA3ADFA0-ECC4-411E-99A2-E6F4B2B56879.jpg" width="480" height="300" alt="ドナルドマクドナルドの画像">
         <li class="top-item">
-            <span class="rank">【2位】</span> <span class="item-name">チキンフィレオ</span>
+            <span class="rank">【1位】</span> <span class="item-name">ビックマック
             <div class="description">
-                チキンフィレオは、ジューシーなチキンフィレにレタスとマヨネーズが挟まれたサンドイッチです。軽食に最適です。
+                
+                ビックマックは、二層のビーフパティに特製のマクソースがたっぷりとかかったハンバーガーです。このソースは甘みと酸味、そしてピクルスとの絶妙なバランスが特徴で、バンズと肉の間にレタス、チーズ、ピクルスが挟まれています。全体的に見て、ジューシーで満足感のある味わいであり、マクドナルドの代表的なメニューの一つとして長年愛されています。
             </div>
+            <img src="img/1210-Big-Mac.m.png" width="480" height="300" alt="ビックマックの画像">
         </li>
+        
+
+
+        
+ 
         <li class="top-item">
-            <span class="rank">【1位】</span> <span class="item-name">アップルパイ</span>
-            <div class="description">
-                アップルパイは、ほんのりシナモン風味のりんごが包まれたパイです。デザートとしてもおすすめです。
-            </div>
-        </li>
-    </ol>
+            <span> マクドナルドの公式ウェブサイトは <a href="https://www.mcdonalds.co.jp/" target="_blank">こちら</a> からご覧いただけます。</span>
+            </li>
 </div>
 
 </body>
